@@ -16,7 +16,7 @@ import com.gildedrose.Item;
  * The sellIn value represents days until the concert. Once the concert
  * passes (sellIn < 0), the backstage pass has no value.
  */
-public class BackstagePassUpdater extends AbstractItemUpdater {
+public class BackstagePassUpdater implements ItemUpdater {
 
     /** Threshold for moderate quality increase (+2) */
     private static final int MEDIUM_URGENCY_DAYS = 10;

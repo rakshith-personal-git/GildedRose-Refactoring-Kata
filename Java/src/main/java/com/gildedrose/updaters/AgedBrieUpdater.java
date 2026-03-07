@@ -13,7 +13,7 @@ import com.gildedrose.Item;
  * 
  * This behavior is the opposite of normal items, which degrade over time.
  */
-public class AgedBrieUpdater extends AbstractItemUpdater {
+public class AgedBrieUpdater implements ItemUpdater {
 
     /**
      * Updates Aged Brie's quality and sellIn.

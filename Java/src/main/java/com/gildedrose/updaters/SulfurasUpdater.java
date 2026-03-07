@@ -14,7 +14,7 @@ import com.gildedrose.Item;
  * Implementing the no-op pattern keeps the code consistent with the
  * Strategy Pattern while honoring the legendary item's special nature.
  */
-public class SulfurasUpdater extends AbstractItemUpdater {
+public class SulfurasUpdater implements ItemUpdater {
 
     /**
      * No-op update for Sulfuras.

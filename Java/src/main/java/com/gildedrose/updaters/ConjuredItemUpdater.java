@@ -16,7 +16,7 @@ import com.gildedrose.Item;
  * Any item with a name starting with "Conjured" uses this updater.
  * Examples: "Conjured Mana Cake", "Conjured Dark Blade"
  */
-public class ConjuredItemUpdater extends AbstractItemUpdater {
+public class ConjuredItemUpdater implements ItemUpdater {
 
     /** Degradation multiplier for conjured items (2x normal) */
     private static final int DEGRADATION_MULTIPLIER = 2;

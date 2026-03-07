@@ -13,7 +13,7 @@ import com.gildedrose.Item;
  * 
  * Examples of normal items: "+5 Dexterity Vest", "Elixir of the Mongoose"
  */
-public class NormalItemUpdater extends AbstractItemUpdater {
+public class NormalItemUpdater implements ItemUpdater {
 
     /**
      * Updates a normal item's quality and sellIn.
